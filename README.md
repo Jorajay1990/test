@@ -71,7 +71,7 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 1. **Clonar el Repositorio**
 
     ```bash
-    git clone URL_DEL_REPOSITORIO
+    git clone https://github.com/Jorajay1990/test.git
     cd nombre_del_repositorio
     ```
 
