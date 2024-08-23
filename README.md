@@ -64,3 +64,56 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+
+## Instalación
+
+1. **Clonar el Repositorio**
+
+    ```bash
+    git clone URL_DEL_REPOSITORIO
+    cd nombre_del_repositorio
+    ```
+
+2. **Instalar Dependencias**
+
+    ```bash
+    composer install
+    npm install
+    ```
+
+3. **Configurar el Entorno**
+
+    Copia el archivo `.env.example` a `.env` y configura tus credenciales:
+
+    ```bash
+    cp .env.example .env
+    ```
+
+    Luego, edita el archivo `.env` con tus configuraciones de base de datos y otras variables.
+
+4. **Generar la Clave de Aplicación**
+
+    ```bash
+    php artisan key:generate
+    ```
+
+5. **Ejecutar Migraciones**
+
+    ```bash
+    php artisan migrate
+    ```
+
+6. **Ejecutar Seeders**
+
+    ```bash
+    php artisan db:seed
+    ```
+
+7. **Iniciar el Servidor**
+
+    ```bash
+    php artisan serve
+    ```
+
+Con esta corrección, el archivo `README.md` debería estar completo y listo para guiar a otros usuarios en la configuración e instalación de tu aplicación Laravel.
